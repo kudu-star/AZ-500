@@ -174,7 +174,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 9. Once the deployment completes, in the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Resource groups** and press the **Enter** key.
 
 10. On the **Resource groups** blade, in the listing of resource groups, note a new resource group named **MC_AZ500LAB09_MyKubernetesCluster_eastus** that holds components of the AKS Nodes. Review resources in this resource group. 
-	
+
 11. Navigate back to the **Resource groups** blade and click the **AZ500LAB09** entry. 
 
     >**Note**: In the list of resources, note the AKS Cluster and the corresponding virtual network.
@@ -189,7 +189,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
     az aks get-credentials --resource-group AZ500LAB09 --name MyKubernetesCluster
     ```
 
-14. In the Bash session within the Cloud Shell pane, run the following to list nodes of the Kubenetes cluster: 
+14. In the Bash session within the Cloud Shell pane, run the following to list nodes of the Kubernetes cluster: 
 
     ```sh
     kubectl get nodes
